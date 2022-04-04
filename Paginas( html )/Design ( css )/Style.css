@@ -1,0 +1,56 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #3F646E;
+font-family: 'consolas', sans-serif;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 1px;
+}
+body{
+background-color: #3F646E;
+}
+.bg{
+background-image: url('../Recources/H4U_logo.png');
+background-position: center;
+background-size: cover;
+}
+.navbar-brand{
+box-shadow: rgba(65, 65, 65, 0.219) 0px 8px 24px;
+}
+li{
+margin-right: 6vh;
+}
+
+a:hover{
+transition: 1s;
+}
+.container{
+display: flex;
+height: 80vh;
+justify-content: center;
+align-items: center;
+}
+
+.header{ 
+margin-top: 10vh;
+}
+
+.column-1 {
+float: left;
+width: 50%;
+padding: 10px;
+
+}
+
+@media screen and (max-width: 600px) {
+.column-1 {
+width: 100%;
+}}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
